@@ -204,26 +204,28 @@ public class LearningCurve : MonoBehaviour
         //Boss attacks first
         Debug.Log(VillianName + " the " + VillianTitle + " attacks " + HeroFullName);
         Debug.Log(VillianName + " the " + VillianTitle + " deals " + BossStrength  + " damage!");
-        //Take the cuurent health, subtract the damage then store the new value back into health
+        //Take the current health, subtract the damage then store the new value back into health
         HeroHealth = HeroHealth - BossStrength;
         Debug.Log(HeroFullName + " now has " + HeroHealth + " health!");
         //Minions attack
         Debug.Log("The evil minions attack!");
         Debug.Log(Minion1Name + " deals " + MinionStrenth + " damage!");
-        //Take the cuurent health, subtract the damage then store the new value back into health
+        //Take the current health, subtract the damage then store the new value back into health
         HeroHealth = HeroHealth - MinionStrenth;
         Debug.Log(HeroFullName + " now has " + HeroHealth + " health!");
         Debug.Log(Minion2Name + " deals " + MinionStrenth + " damage!");
-        //Take the cuurent health, subtract the damage then store the new value back into health
+        //Take the current health, subtract the damage then store the new value back into health
         HeroHealth = HeroHealth - MinionStrenth;
         Debug.Log(HeroFullName + " now has " + HeroHealth + " health!");
 
         //Hero turn to attack!
         Debug.Log(HeroFullName + " attacks each villian for " + HeroStrength  + " damage!");
         //do math
-        BossHealth = BossHealth - HeroStrength;
-        Minion1Health = Minion1Health - HeroStrength;
-        Minion2Health = Minion2Health - HeroStrength;
+        // Take the current health, subtract the damage then store the new value back into health
+        // but this time lets use the combination assignment and arithmetic operator
+        BossHealth -= HeroStrength;
+        Minion1Health -= HeroStrength;
+        Minion2Health -= HeroStrength;
 
         //Display results in the console
         Debug.Log(VillianName + " the " + VillianTitle + " now has " + BossHealth + " health!");
