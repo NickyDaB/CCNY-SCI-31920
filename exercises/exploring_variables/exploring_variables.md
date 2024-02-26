@@ -283,6 +283,7 @@ We now have some hands on experience with:
 - printing to the console
 - concatenating strings
 - concatenating strings in a debug print to make more advanced console logs
+- used the increment operator for the first time
 - making a goofy console adventure story via programming
 
 ## Submitting
