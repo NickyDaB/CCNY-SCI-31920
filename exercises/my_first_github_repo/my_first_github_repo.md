@@ -136,10 +136,12 @@ It should open an internet browser, but once you fill out the appropriate inform
 Once you are all logged in you will probably see a page similar to this: 
 
 ![screenshot](a_3.png)
-
-There seems to be an official GitHub tutorial here. It might be a good idea to tinker around with that over the weekend if you have some free time and want to get the extra practice. But I'll leave that up to you.
-
-![screenshot](a_4.png)
+ 
+> ***Side Note:*** *Extra Learning and Practice*
+>
+> There seems to be an official GitHub tutorial here. It might be a good idea to tinker around with that over the weekend if you have some free time and want to get the extra practice. But I'll leave that up to you.
+>
+> ![screenshot](a_4.png)
 
 We will continue on with our custom tutorial for class purposes.
 
