@@ -198,6 +198,10 @@ Then open this file up in your text editor of choice. I'm just going to use note
 
 ![screenshot](18.png)
 
+Let's type something in. I'll type in "Hello friends!" on the first line.
+
+![screenshot](19.png)
+
 
 ## Conclusion
 
