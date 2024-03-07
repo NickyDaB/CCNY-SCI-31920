@@ -204,7 +204,9 @@ Let's type something in. I'll type in "Hello friends!" on the first line.
 
 Save your file, then go over and check out GitHub Desktop. We should see some updates. It looks like it knows that we have changed and updated our file. It sees that we have a new file called "demo.txt" and it also knows we edited line 1 to say "Hello friends!".
 
+![screenshot](20.png)
 
+I'm going to demo the rest of this exercise live in class. But eventually I'll go back and fill this in for those who missed it.
 
 
 ## Conclusion
