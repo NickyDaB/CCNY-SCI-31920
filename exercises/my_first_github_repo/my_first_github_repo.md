@@ -125,11 +125,27 @@ Once the program is installed, you can go and open it up!
 
 ### Using GitHub Desktop
 
-Now, this part might be a little different for me, but I assume you'll have to use your GitHub account to log in? My stuff on my home computer is already pre-set up. So, I'm not sure how to get it back to default. 
+Now, you will have to sign in with your account.
 
-But once you sign in, then I think we should get back to a similar state. 
+![screenshot](a_1.png)
 
-Since this is the first time we are cloning a repo, we will do it this way. Go to the top left of `GitHub Desktop` and click on `File`. Find the `Clone Repository...` option and then click that. 
+It should open an internet browser, but once you fill out the appropriate information you should be on your way.
+
+![screenshot](a_2.png)
+
+Once you are all logged in you will probably see a page similar to this: 
+
+![screenshot](a_3.png)
+
+There seems to be an official GitHub tutorial here. It might be a good idea to tinker around with that over the weekend if you have some free time and want to get the extra practice. But I'll leave that up to you.
+
+![screenshot](a_4.png)
+
+We will continue on with our custom tutorial for class purposes.
+
+Since this is the first time we are cloning a repo, we will do it this way. There are a few ways to go about this, and we will try a few over the next few exercises so you can get a bit of experience with a few of the ways. 
+
+Go to the top left of `GitHub Desktop` and click on `File`. Find the `Clone Repository...` option and then click that. 
 
 ![screenshot](12.png)
 
