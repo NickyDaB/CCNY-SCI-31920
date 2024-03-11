@@ -72,7 +72,7 @@ We see a new page, similar to this:
 
 If you look around you should see some things here. They help you set up your repo. 
 
-- **Owner** : Basically who owns and is the admin of your repo. For today, this will be you. In the future, it could be helpful to maybe switch this out for someone else or a organization to own the repo. 
+- **Owner** : Basically who owns and is the admin of your repo. For today, this will be you. In the future, it could be helpful to maybe switch this out for someone else or an organization to own the repo. 
 
 - **Repository name** : Well, we need to call it something right? 
 
@@ -80,13 +80,13 @@ If you look around you should see some things here. They help you set up your re
 
 - **Public / Private** : Visability of your project. For now, let's just make things public. It's easier that way, but in the future, for sensitive data or other projects, you might set this to private.
 
-- **Initalize the repository with** : Some additional quick standard things most repos do, so GitHub added them as fast set up options. I usually always add a readme. In the future we will mess around with gitignore (which tells git to ignore some files in your project folder) and license (which says how others are allowed to use this project). We will leave them as "none" for now.
+- **Initialize the repository with** : Some additional quick standard things most repos do, so GitHub added them as fast set up options. I usually always add a readme. In the future we will mess around with gitignore (which tells git to ignore some files in your project folder) and license (which says how others are allowed to use this project). We will leave them as "none" for now.
 
 ### Setting Up the Repository
 
 Ok, now that we have the quick overview. Let's fill out the data and make the repository.
 
-For the name I'll go with `my_first_repo`. I have some previous habbits with working with various operating systems. So, for my folders and file names I like to use all lowercase letters and underscores. Feel free to do what ever you want. But understand that the name of the repo will be your "root" folder *(Aka, the folder where all your files will be located)*. Eventually we will copy and clone this folder to our local machine, so that may impact what you call your project folder. 
+For the name I'll go with `my_first_repo`. I have some previous habits with working with various operating systems. So, for my folders and file names I like to use all lowercase letters and underscores. Feel free to do what ever you want. But understand that the name of the repo will be your "root" folder *(Aka, the folder where all your files will be located)*. Eventually, we will copy and clone this folder to our local machine, so that may impact what you call your project folder. 
 
 > ***Side Note:** It might make sense, but you can't create multiple repositories with the same name.*  
 >
@@ -111,7 +111,7 @@ You'll now automatically get brought to the repo's github page.
 
 If you look closely, you'll notice that the web address is your account name with the repo name. So, again, another way to get here.
 
-At this point we made a repo, but it is essentially empty. *(well, it has that readme file in it that we auto generated.)* Now we are going to jump to our personal machine and use the program `GitHub Desktop` to `clone` *(aka, "copy" our repo from the cloud to our local computer)*. Let's get to it.
+At this point, we made a repo, but it is essentially empty. *(well, it has that readme file in it that we auto generated.)* Now we are going to jump to our personal machine and use the program `GitHub Desktop` to `clone` *(aka, "copy" our repo from the cloud to our local computer)*. Let's get to it.
 
 ### Setting Up GitHub Desktop
 
@@ -151,7 +151,7 @@ Go to the top left of `GitHub Desktop` and click on `File`. Find the `Clone Repo
 
 ![screenshot](12.png)
 
-It should open a new dialouge box. 
+It should open a new dialogue box. 
 
 ![screenshot](13.png)
 
@@ -163,7 +163,7 @@ You should then see your repo because you probably only have one, but if you hav
 
 The next thing we need to note is the `Local Path` section. This is where GitHub desktop will clone *(aka - copy)* your repo to on your local machine. 
 
-I think for me, for this first project, puttin git on my desktop with the folder name "my_first_repo" is fine. In the future, we might mess around with putting stuff in different locations. But just remember where you are cloning your files to, this will be important!
+I think for me, for this first project, putting git on my desktop with the folder name "my_first_repo" is fine. In the future, we might mess around with putting stuff in different locations. But just remember where you are cloning your files to, this will be important!
 
 Once you are ready, hit the `clone` button. 
 
@@ -178,11 +178,11 @@ Let's also check the location where we said to **clone** the repo. Remember, I p
 
 Awesome, looks like my stuff was copied correctly.
 
-If I open the file up we see everthing we saw on GitHub.com - mainly an empty folder with the readme file. 
+If I open the file up we see everything we saw on GitHub.com - mainly an empty folder with the readme file. 
 
 ![screenshot](16.png)
 
-Sweet eveything seems in check. Now, we are pretty much set up to do the actual work.
+Sweet everything seems in check. Now, we are pretty much set up to do the actual work.
 
 *Wait... what do you mean **NOW** we start the work!?*
 
@@ -206,12 +206,138 @@ Save your file, then go over and check out GitHub Desktop. We should see some up
 
 ![screenshot](20.png)
 
-I'm going to demo the rest of this exercise live in class. But eventually I'll go back and fill this in for those who missed it.
+So, at this point, I'd like to start using our version control tool. We have saved our file, but we haven't committed anything to our version control tool. This next step is super important. We will take a snapshot and commit the current version of this file to our version control tool. Basically, if we take multiple snapshots of our file, then over time we will have these "save points" that we can go back in time to or jump around between. 
 
+Before we commit let's just quickly mention some other points of interest in GitHub Desktop. 
+
+![screenshot](21.png)
+
+On the left of GitHub Desktop, there is a list of changed files since your last commit. *Right now we only have one file. It is called demo.txt - but if we had made a few more, they would all appear in this list if edited. We will mess with multiple files eventually.* Next to each edited file, there is a small square that will either be checked or unchecked. If the file is checked, then it will be included in the current commit snap shot. If it is not checked, then it will be ignored on this current commit snap shot. This will be useful to know later, but for now, we just want to make sure that demo.txt is checked.
+
+Another thing to note is a small icon directly to the right of your file name. Right now, it is a green plus.
+
+![screenshot](22.png)
+
+You'll probably see 3 potential icons here.
+
+![screenshot](23.png)
+
+- A yellow dot, which means the file has been edited or changed since your last commit.
+- A green plus, which means this is the first time the version control has seen this file.
+- A red minus, which means that this file has been removed since your last commit.
+
+Again, not super important, but fun to know.
+
+![screenshot](24.png)
+
+Last thing I'll mention before our first commit is the area down in the lower left of the screen. Before we commit a snapshot, we need to leave a note. Our note should be similar to how we do comments, not too long, not too short, just enough to get the information across effectively. 
+
+If you do need more room, then there is a second box below where you can write a description. This is optional, but the top box is required. 
+
+For this demo, I won't get too crazy about my notes, but it is good practice to leave good commit history notes. Things like "did work" or "fixed stuff" are not welcome. 
+
+For this first commit, I'll leave a note that says, "Initial upload of demo.txt".
+
+![screenshot](25.png)
+
+When ready, hit the "commit to main" button.
+
+Now we can see that the GitHub Desktop page has changed.
+
+![screenshot](26.png)
+
+You'll see that it says, "No local changes", which basically means that the current state of our version control matches and is in sync with the current state of all the files in our folder. 
+
+You'll also see that "push to origin" now has a number 1 near it. This means that our version control tool knows that we have 1 commit that has been recorded, but not yet backed up to the cloud on github.com
+
+We will come back to that in a bit, but let's make some more commits first. 
+
+I'm going to go back to my file, jump a few lines down, and type in something fun like, "Yo yo what's up!?"
+
+I won't save my file just yet. 
+
+![screenshot](27.png)
+
+Notice how GitHub Desktop doesn't change yet.
+
+![screenshot](28.png)
+
+Let's go back and save our demo.txt file. Once our file is saved, GitHub desktop should detect the changes.
+
+![screenshot](29.png)
+
+Let's add a line on 3, saying something else. Then save demo.txt. GitHub Desktop should notice the change.
+
+![screenshot](30.png)
+
+Now remove that line. And again save the file.
+
+![screenshot](31.png)
+
+Let's make another commit at this point. I'll make my message, "Added in line 5".
+
+![screenshot](32.png)
+
+Let's make a side note that our push origin number went up to 2. 
+
+![screenshot](33.png)
+
+But what I really want to highlight here is that in this last bit we saved our file a few times. we did the yoyo, the blabla, then removed the blabla, then committed. While we saved the file multiple times, we only did one commit snapshot. So version control only saved the one point in time. 
+
+This is important to note. If you want to preserve a version of your file into version control, then you need to make a commit. It doesn't matter how many times you have saved the actual file, or how many times you have edited the file. Any file changes made inbetween commits will not be preserved. 
+
+Let's go back to demo just to show off a few more things. I'm going to make another edit. 
+
+![screenshot](34.png)
+
+And then, I'll go and commit that. Our push to origin should now be at 3. Let's take a quick look at our repo on github.com - It is still blank, as if we haven't done any work. This is because we have yet to "push" our commits back up to the cloud and github.com - We want everything to be in sync and backed up, so let's do this next. 
+
+![screenshot](35.png)
+
+We can push our 3 commits by either pressing the button at the top or the blue button in the center of the screen.
+
+![screenshot](36.png)
+
+Push the commits to origin. You'll notice that the numbers disappear. This is because our local version history is now in sync with github.com - You can even refresh github.com and see everything now up to date and in sync. 
+
+Another important note is that each individual commit is preserved. We see each commit that we have made. So even though we only pushed once, it pushed all of our commits, and we can see each one. It even preserves the time stamp of the original commit, not the timestamp of when you pushed it to github.com
+
+![screenshot](37.png)
+
+![screenshot](38.png)
+
+![screenshot](39.png)
+
+Let's do a little more work here. We have been adding a lot. Let's just showcase deleting a line. I'll remove line 3.
+
+![screenshot](40.png)
+
+I'll also commit at this point. 
+
+![screenshot](41.png)
+
+Now let's pretend we did a bunch more work. We have been working all day, but class is almost over. Another convenient byproduct of storing our project on github.com is that we can instantly back up our work there and then copy it down in the future to a different computer. We will worry about copying down in a future exercise. But again, let's pretend we need to leave now, so let's commit our current work, then push it up to github.com so we can log off our machine and head to our next class. 
+
+Example of all the work done: 
+
+![screenshot](41a.png)
+
+After you commit, don't forget to push.
+
+![screenshot](42.png)
+
+After pushing, all our work should be backed up to github.com
+
+![screenshot](43.png)
+![screenshot](44.png)
+
+Nice, now we don't have to worry about losing all our work because it is backed up on github.com
 
 ## Conclusion
 
-At this point, I think we have successfully tinkered around with the topics of the week. 
+At this point, I think we have successfully gotten our field experience with an introduction to version control.
+
+We just messed around with a text file, but eventually, we will do the exact same things with our C# scripts.
 
 Congratulations! 
 
